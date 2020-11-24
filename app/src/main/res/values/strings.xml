@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Http测速</string>
+    <string name="download_url">Http文件链接:</string>
+    <string name="current_speed">当前速度:</string>
+    <string name="average_speed">平均速度:</string>
+    <string name="file_size">文件大小:</string>
+    <string name="status_downloading">状态: 正在下载\u0020\u0020\u0020\u0020\u0020\u0020当前速度: %1$d KB/s, 已下载字节数/总字节数: %2$d KB/%3$d KB </string>
+    <string name="status_error">状态: 出错</string>
+    <string name="status_completed">状态: 完成</string>
+    <string name="status_ready">状态: 就绪</string>
+    <string name="download_error_exception">下载时发生异常</string>
+    <string name="download_error_response">服务器返回错误代码:</string>
+    <string name="download_error_usercancel">用户取消下载</string>
+    <string name="start">开始</string>
+    <string name="stop">停止</string>
+    <string name="clear_log">清除日志</string>
+    <string name="Performance_model">性能模式</string>
+    <string name="fail_write_sys_file">写系统文件失败</string>
+    <string name="download_to_file">下载到临时文件</string>
+    <string name="repeat">重复下载</string>
+    <string name="log_download_start">下载开始...</string>
+    <string name="log_download_completed">下载完成，平均速度: %1$d KB/秒</string>
+    <string name="log_test_completed_count">测试次数： %1$d 次</string>
+    <string name="log_test_completed_speed">，平均速度: %1$d KB/秒</string>
+    <string name="log_connecting">正在连接到服务器...</string>
+    <string name="redownload_delay">%1$d 秒后重新开始下载</string>
+    <string name="confirm">确认</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="exit_when_downloading">当前下载正在进行中，是否确认退出？</string>
+    <string name="network_disconnected">#### 网络连接已断开: %1$d ####</string>
+    <string name="network_connected">网络已连接: %1$s</string>
+    <string name="network_reconnected">网络已重新连接至 %1$s, 距离上次断开: %2$d 秒.</string>
+    <string name="exceed_max_fail_count">超过最大出错次数，将在下次网络重连后重试.</string>
+    <string name="log_file_open_failed">日志文件打开失败, 无法记录到文件!</string>
+    <string name="network_ethernet">以太网</string>
+    <string name="network_wifi">Wi-Fi</string>
+    <string name="network_unknown">未知网络</string>
+
+</resources>
